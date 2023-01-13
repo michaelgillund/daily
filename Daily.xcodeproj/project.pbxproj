@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E506224C29711A1000D84769 /* FloatingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E506224B29711A1000D84769 /* FloatingTabBar.swift */; };
+		E506224E29711B3D00D84769 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E506224D29711B3D00D84769 /* DatePickerView.swift */; };
+		E50622502971296500D84769 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E506224F2971296500D84769 /* Test.swift */; };
+		E51C136B2972002300D7D123 /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51C136A2972002200D7D123 /* SegmentedPicker.swift */; };
+		E5480633296FB5710067FEA0 /* DynamicTabHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5480632296FB5710067FEA0 /* DynamicTabHeader.swift */; };
+		E5480635296FC6350067FEA0 /* ScrollViewOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5480634296FC6350067FEA0 /* ScrollViewOffset.swift */; };
+		E5825001296CD41C00AE7C4A /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5825000296CD41C00AE7C4A /* Tab.swift */; };
+		E58AB9BC296B71DE00869B72 /* FootballPlayerStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58AB9BB296B71DE00869B72 /* FootballPlayerStatsView.swift */; };
+		E58AB9BE296B74B500869B72 /* FootballSummaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58AB9BD296B74B500869B72 /* FootballSummaryModel.swift */; };
+		E5C0D308296E77770071BED0 /* LinescoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0D307296E77770071BED0 /* LinescoreView.swift */; };
 		E5C1EB972968E09100E7D0A5 /* DailyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EB962968E09100E7D0A5 /* DailyApp.swift */; };
 		E5C1EB992968E09100E7D0A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EB982968E09100E7D0A5 /* ContentView.swift */; };
 		E5C1EB9B2968E09200E7D0A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C1EB9A2968E09200E7D0A5 /* Assets.xcassets */; };
@@ -14,6 +24,18 @@
 		E5C1EBA82968E09200E7D0A5 /* DailyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EBA72968E09200E7D0A5 /* DailyTests.swift */; };
 		E5C1EBB22968E09200E7D0A5 /* DailyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EBB12968E09200E7D0A5 /* DailyUITests.swift */; };
 		E5C1EBB42968E09200E7D0A5 /* DailyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EBB32968E09200E7D0A5 /* DailyUITestsLaunchTests.swift */; };
+		E5C1EBC22968E0C100E7D0A5 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E5C1EBC12968E0C100E7D0A5 /* SDWebImageSwiftUI */; };
+		E5C1EBC52968E0CC00E7D0A5 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = E5C1EBC42968E0CC00E7D0A5 /* Introspect */; };
+		E5C1EBCA2968E19B00E7D0A5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EBC92968E19B00E7D0A5 /* HomeView.swift */; };
+		E5C1EBCC2968E1B900E7D0A5 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EBCB2968E1B900E7D0A5 /* Network.swift */; };
+		E5C1EBCE2968E1E300E7D0A5 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EBCD2968E1E300E7D0A5 /* ScoreView.swift */; };
+		E5C1EBD02968E24F00E7D0A5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EBCF2968E24F00E7D0A5 /* ViewModel.swift */; };
+		E5C1EBD32968E32600E7D0A5 /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EBD22968E32600E7D0A5 /* Sections.swift */; };
+		E5C1EBD52968E35000E7D0A5 /* SportsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EBD42968E35000E7D0A5 /* SportsModel.swift */; };
+		E5C1EBD72968E37500E7D0A5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EBD62968E37500E7D0A5 /* Extensions.swift */; };
+		E5C1EBD92968F11500E7D0A5 /* BasketballSummaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EBD82968F11500E7D0A5 /* BasketballSummaryModel.swift */; };
+		E5C1EBDB2968F47000E7D0A5 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EBDA2968F47000E7D0A5 /* SummaryView.swift */; };
+		E5E6D1A0296A9AB600E6EF83 /* BasketballPlayerStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E6D19F296A9AB600E6EF83 /* BasketballPlayerStatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E506224B29711A1000D84769 /* FloatingTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBar.swift; sourceTree = "<group>"; };
+		E506224D29711B3D00D84769 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		E506224F2971296500D84769 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		E51C136A2972002200D7D123 /* SegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
+		E5480632296FB5710067FEA0 /* DynamicTabHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTabHeader.swift; sourceTree = "<group>"; };
+		E5480634296FC6350067FEA0 /* ScrollViewOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffset.swift; sourceTree = "<group>"; };
+		E5825000296CD41C00AE7C4A /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		E58AB9BB296B71DE00869B72 /* FootballPlayerStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballPlayerStatsView.swift; sourceTree = "<group>"; };
+		E58AB9BD296B74B500869B72 /* FootballSummaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballSummaryModel.swift; sourceTree = "<group>"; };
+		E5C0D307296E77770071BED0 /* LinescoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinescoreView.swift; sourceTree = "<group>"; };
 		E5C1EB932968E09100E7D0A5 /* Daily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C1EB962968E09100E7D0A5 /* DailyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyApp.swift; sourceTree = "<group>"; };
 		E5C1EB982968E09100E7D0A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +76,17 @@
 		E5C1EBAD2968E09200E7D0A5 /* DailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C1EBB12968E09200E7D0A5 /* DailyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyUITests.swift; sourceTree = "<group>"; };
 		E5C1EBB32968E09200E7D0A5 /* DailyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E5C1EBC92968E19B00E7D0A5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E5C1EBCB2968E1B900E7D0A5 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		E5C1EBCD2968E1E300E7D0A5 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		E5C1EBCF2968E24F00E7D0A5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E5C1EBD22968E32600E7D0A5 /* Sections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sections.swift; sourceTree = "<group>"; };
+		E5C1EBD42968E35000E7D0A5 /* SportsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsModel.swift; sourceTree = "<group>"; };
+		E5C1EBD62968E37500E7D0A5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E5C1EBD82968F11500E7D0A5 /* BasketballSummaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballSummaryModel.swift; sourceTree = "<group>"; };
+		E5C1EBDA2968F47000E7D0A5 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		E5E6D19E296A55EE00E6EF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E5E6D19F296A9AB600E6EF83 /* BasketballPlayerStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballPlayerStatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C1EBC22968E0C100E7D0A5 /* SDWebImageSwiftUI in Frameworks */,
+				E5C1EBC52968E0CC00E7D0A5 /* Introspect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +139,17 @@
 		E5C1EB952968E09100E7D0A5 /* Daily */ = {
 			isa = PBXGroup;
 			children = (
+				E5E6D19E296A55EE00E6EF83 /* Info.plist */,
 				E5C1EB962968E09100E7D0A5 /* DailyApp.swift */,
 				E5C1EB982968E09100E7D0A5 /* ContentView.swift */,
+				E5480632296FB5710067FEA0 /* DynamicTabHeader.swift */,
+				E506224B29711A1000D84769 /* FloatingTabBar.swift */,
+				E5C1EBC82968E15100E7D0A5 /* Views */,
+				E5C1EBC62968E0E800E7D0A5 /* ViewModels */,
+				E5C1EBD12968E2F500E7D0A5 /* Models */,
+				E5C1EBC72968E12A00E7D0A5 /* Networking */,
 				E5C1EB9A2968E09200E7D0A5 /* Assets.xcassets */,
+				E5C1EBD62968E37500E7D0A5 /* Extensions.swift */,
 				E5C1EB9C2968E09200E7D0A5 /* Preview Content */,
 			);
 			path = Daily;
@@ -127,6 +180,51 @@
 			path = DailyUITests;
 			sourceTree = "<group>";
 		};
+		E5C1EBC62968E0E800E7D0A5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E5C1EBCF2968E24F00E7D0A5 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E5C1EBC72968E12A00E7D0A5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E5C1EBCB2968E1B900E7D0A5 /* Network.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E5C1EBC82968E15100E7D0A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5C1EBC92968E19B00E7D0A5 /* HomeView.swift */,
+				E5C1EBCD2968E1E300E7D0A5 /* ScoreView.swift */,
+				E5C1EBDA2968F47000E7D0A5 /* SummaryView.swift */,
+				E5C0D307296E77770071BED0 /* LinescoreView.swift */,
+				E5E6D19F296A9AB600E6EF83 /* BasketballPlayerStatsView.swift */,
+				E58AB9BB296B71DE00869B72 /* FootballPlayerStatsView.swift */,
+				E506224D29711B3D00D84769 /* DatePickerView.swift */,
+				E51C136A2972002200D7D123 /* SegmentedPicker.swift */,
+				E5480634296FC6350067FEA0 /* ScrollViewOffset.swift */,
+				E506224F2971296500D84769 /* Test.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5C1EBD12968E2F500E7D0A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5C1EBD22968E32600E7D0A5 /* Sections.swift */,
+				E5C1EBD42968E35000E7D0A5 /* SportsModel.swift */,
+				E5C1EBD82968F11500E7D0A5 /* BasketballSummaryModel.swift */,
+				E58AB9BD296B74B500869B72 /* FootballSummaryModel.swift */,
+				E5825000296CD41C00AE7C4A /* Tab.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +241,10 @@
 			dependencies = (
 			);
 			name = Daily;
+			packageProductDependencies = (
+				E5C1EBC12968E0C100E7D0A5 /* SDWebImageSwiftUI */,
+				E5C1EBC42968E0CC00E7D0A5 /* Introspect */,
+			);
 			productName = Daily;
 			productReference = E5C1EB932968E09100E7D0A5 /* Daily.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +317,10 @@
 				Base,
 			);
 			mainGroup = E5C1EB8A2968E09100E7D0A5;
+			packageReferences = (
+				E5C1EBC02968E0C100E7D0A5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				E5C1EBC32968E0CC00E7D0A5 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+			);
 			productRefGroup = E5C1EB942968E09100E7D0A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +363,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58AB9BC296B71DE00869B72 /* FootballPlayerStatsView.swift in Sources */,
+				E58AB9BE296B74B500869B72 /* FootballSummaryModel.swift in Sources */,
+				E5E6D1A0296A9AB600E6EF83 /* BasketballPlayerStatsView.swift in Sources */,
+				E5480633296FB5710067FEA0 /* DynamicTabHeader.swift in Sources */,
+				E51C136B2972002300D7D123 /* SegmentedPicker.swift in Sources */,
+				E5C1EBD52968E35000E7D0A5 /* SportsModel.swift in Sources */,
+				E506224C29711A1000D84769 /* FloatingTabBar.swift in Sources */,
+				E5C1EBD72968E37500E7D0A5 /* Extensions.swift in Sources */,
 				E5C1EB992968E09100E7D0A5 /* ContentView.swift in Sources */,
+				E5C1EBD32968E32600E7D0A5 /* Sections.swift in Sources */,
+				E5C1EBCA2968E19B00E7D0A5 /* HomeView.swift in Sources */,
+				E5C1EBCE2968E1E300E7D0A5 /* ScoreView.swift in Sources */,
+				E5480635296FC6350067FEA0 /* ScrollViewOffset.swift in Sources */,
+				E5C1EBCC2968E1B900E7D0A5 /* Network.swift in Sources */,
+				E5C1EBD02968E24F00E7D0A5 /* ViewModel.swift in Sources */,
+				E5C1EBD92968F11500E7D0A5 /* BasketballSummaryModel.swift in Sources */,
+				E5825001296CD41C00AE7C4A /* Tab.swift in Sources */,
+				E5C0D308296E77770071BED0 /* LinescoreView.swift in Sources */,
+				E50622502971296500D84769 /* Test.swift in Sources */,
 				E5C1EB972968E09100E7D0A5 /* DailyApp.swift in Sources */,
+				E5C1EBDB2968F47000E7D0A5 /* SummaryView.swift in Sources */,
+				E506224E29711B3D00D84769 /* DatePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +546,7 @@
 				DEVELOPMENT_TEAM = 77TRP2G374;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Daily/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +576,7 @@
 				DEVELOPMENT_TEAM = 77TRP2G374;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Daily/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -583,6 +711,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5C1EBC02968E0C100E7D0A5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		E5C1EBC32968E0CC00E7D0A5 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5C1EBC12968E0C100E7D0A5 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5C1EBC02968E0C100E7D0A5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		E5C1EBC42968E0CC00E7D0A5 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5C1EBC32968E0CC00E7D0A5 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E5C1EB8B2968E09100E7D0A5 /* Project object */;
 }
